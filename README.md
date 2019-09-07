@@ -18,7 +18,8 @@ To run the example project, clone the repo, and run the code.
 
 Create a UIView in the StoryBoard and subclass it as GRSegmentedView and create outlet for it.
 Then use the code:
-```swift segmentView.segmentTitles = ["One", "Two", "Three"]
+```swift 
+segmentView.segmentTitles = ["One", "Two", "Three"]
 segmentView.selectionTitleColor = .white
 segmentView.deselectionTitleColor = .white
 segmentView.selectorColor = .brown
