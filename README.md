@@ -1,28 +1,37 @@
 # GRSegementedView
 
-[![CI Status](https://img.shields.io/travis/gregorywlsn/GRSegementedView.svg?style=flat)](https://travis-ci.org/gregorywlsn/GRSegementedView)
-[![Version](https://img.shields.io/cocoapods/v/GRSegementedView.svg?style=flat)](https://cocoapods.org/pods/GRSegementedView)
-[![License](https://img.shields.io/cocoapods/l/GRSegementedView.svg?style=flat)](https://cocoapods.org/pods/GRSegementedView)
-[![Platform](https://img.shields.io/cocoapods/p/GRSegementedView.svg?style=flat)](https://cocoapods.org/pods/GRSegementedView)
+Nice animated custom segment control which can be used insted of UISegmentedControl
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+To run the example project, clone the repo, and run the code.
 
 ## Installation
+### Manually:
 
-GRSegementedView is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+* Download GRSegementedView or Clone Download.
+* Drag and drop GRSegementedView directory to your project
 
-```ruby
-pod 'GRSegementedView'
+## Usage
+
+Create a UIView in the StoryBoard and subclass it as GRSegmentedView and create outlet for it.
+Then use the code:
+```swift segmentView.segmentTitles = ["One", "Two", "Three"]
+segmentView.selectionTitleColor = .white
+segmentView.deselectionTitleColor = .white
+segmentView.selectorColor = .brown
+segmentView.delegate = self
 ```
+   ### Delegate
+```swift
+func didSelected(_ segmentControl: GRSegmentedView, at index: Int) {
+    print("Selecetd Index: ", index)
+}
+   ```
 
 ## Author
 
-gregorywlsn, gregorywlsn0111@gmail.com
+Gregory Wilson, gregorywlsn0111@gmail.com
 
 ## License
 
