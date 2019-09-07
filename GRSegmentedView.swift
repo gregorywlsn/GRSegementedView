@@ -41,7 +41,7 @@ public protocol GRSegmentedDelegate {
     @IBInspectable dynamic open var selectionTitleColor: UIColor = .white
     
     // decide the title font color on deselection. default color is black
-    @IBInspectable dynamic open var DeselectionTitleColor: UIColor = .black
+    @IBInspectable dynamic open var deselectionTitleColor: UIColor = .black
     
     // titles for the segments. No title means no title.
     @IBInspectable dynamic open var segmentTitles: [String]!  {
@@ -66,7 +66,7 @@ public protocol GRSegmentedDelegate {
         }
     }
     // Custum delegate.
-    @IBOutlet @objc var delegate: GRSegmentedDelegate!
+    @IBOutlet @objc public var delegate: GRSegmentedDelegate!
     private var backView = UIView ()
     private var selector = UIView()
     
@@ -126,7 +126,7 @@ public protocol GRSegmentedDelegate {
             if i == selecetdIndex {
                 segmentButton.setTitleColor(selectionTitleColor, for: .normal)
             } else {
-                segmentButton.setTitleColor(DeselectionTitleColor, for: .normal)
+                segmentButton.setTitleColor(deselectionTitleColor, for: .normal)
             }
             backView.addSubview(segmentButton)
             segmentButtons.append(segmentButton)
@@ -148,7 +148,7 @@ public protocol GRSegmentedDelegate {
             if sender == segmentedButton {
                 segmentedButton.setTitleColor(selectionTitleColor, for: .normal)
             } else {
-                segmentedButton.setTitleColor(DeselectionTitleColor, for: .normal)
+                segmentedButton.setTitleColor(deselectionTitleColor, for: .normal)
             }
         }
         setupSelector(slectedIndex: sender.tag)

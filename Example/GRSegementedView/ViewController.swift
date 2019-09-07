@@ -7,18 +7,28 @@
 //
 
 import UIKit
+import GRSegementedView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var segmentView: GRSegmentedView!
+    @IBOutlet weak var segmentLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        segmentView.segmentTitles = ["One", "Two", "Three"]
+        segmentView.selectionTitleColor = .white
+        segmentView.deselectionTitleColor = .white
+        segmentView.selectorColor = .brown
+        segmentView.delegate = self
+        segmentLabel.text = "Selecetd Index: \(segmentView.selecetdIndex)"
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+extension ViewController: GRSegmentedDelegate {
+    func didSelected(_ segmentControl: GRSegmentedView, at index: Int) {
+        print("Selecetd Index: ", index)
+        segmentLabel.text = "Selecetd Index: \(index)"
     }
-
 }
 
