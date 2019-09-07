@@ -30,6 +30,13 @@ func didSelected(_ segmentControl: GRSegmentedView, at index: Int) {
     print("Selecetd Index: ", index)
 }
    ```
+   ## Communication
+
+- If you **found a bug**, open an issue.
+- If you **have a feature request**, open an issue.
+- If you **want to contribute**, submit a pull request.
+- Or you can **mail** me
+- Will try to improve the class and add new features.
 
 ## Author
 
