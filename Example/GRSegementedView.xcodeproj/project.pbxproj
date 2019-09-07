@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		60ED93314F680E521B9864AC /* Pods_GRSegementedView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF0479B3B1A24BCE2D2E2B /* Pods_GRSegementedView_Example.framework */; };
+		8B4F274F2323DF73008CD1C5 /* segment.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F274E2323DF73008CD1C5 /* segment.gif */; };
 		B062B7575FEE94F67B71C16A /* Pods_GRSegementedView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E665F989D2A4FE4C4B35F97 /* Pods_GRSegementedView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +32,7 @@
 		11DF0479B3B1A24BCE2D2E2B /* Pods_GRSegementedView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRSegementedView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3315CEDAC4B4F7F2656B68 /* Pods-GRSegementedView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRSegementedView_Example.release.xcconfig"; path = "Target Support Files/Pods-GRSegementedView_Example/Pods-GRSegementedView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3E665F989D2A4FE4C4B35F97 /* Pods_GRSegementedView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRSegementedView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C337CF82672FF42F02B807C /* GRSegementedView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GRSegementedView.podspec; path = ../GRSegementedView.podspec; sourceTree = "<group>"; };
+		4C337CF82672FF42F02B807C /* GRSegementedView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GRSegementedView.podspec; path = ../GRSegementedView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		51AB3E9A7B7234F20DD1174A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GRSegementedView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRSegementedView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		670B01DAF43FFB94F706A9B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		68071F9880D24D7E596718CB /* Pods-GRSegementedView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRSegementedView_Example.debug.xcconfig"; path = "Target Support Files/Pods-GRSegementedView_Example/Pods-GRSegementedView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8B4F274E2323DF73008CD1C5 /* segment.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = segment.gif; sourceTree = "<group>"; };
 		AFDCD716CC0B791FBF25D384 /* Pods-GRSegementedView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRSegementedView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GRSegementedView_Tests/Pods-GRSegementedView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E14BE4741174F8A8695E6196 /* Pods-GRSegementedView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRSegementedView_Tests.release.xcconfig"; path = "Target Support Files/Pods-GRSegementedView_Tests/Pods-GRSegementedView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				8B4F274D2323DE50008CD1C5 /* Resources */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for GRSegementedView */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -137,6 +140,14 @@
 				51AB3E9A7B7234F20DD1174A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8B4F274D2323DE50008CD1C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B4F274E2323DF73008CD1C5 /* segment.gif */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		BC369AA3015C4DDB62030BC4 /* Frameworks */ = {
@@ -248,6 +259,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				8B4F274F2323DF73008CD1C5 /* segment.gif in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
