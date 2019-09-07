@@ -9,9 +9,8 @@ To run the example project, clone the repo, and run the code.
 ## Installation
 ### Manually:
 
-* Download SJSegmentedViewController.
-* Drag and drop SJSegmentedViewController directory to your project
-
+* Download GRSegementedView or Clone Download.
+* Drag and drop GRSegementedView directory to your project
 
 ## Usage
 
