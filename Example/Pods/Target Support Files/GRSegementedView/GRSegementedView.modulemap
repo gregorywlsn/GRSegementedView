@@ -1,0 +1,6 @@
+framework module GRSegementedView {
+  umbrella header "GRSegementedView-umbrella.h"
+
+  export *
+  module * { export * }
+}

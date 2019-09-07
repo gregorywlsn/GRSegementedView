@@ -1,0 +1,16 @@
+PODS:
+  - GRSegementedView (0.1.0)
+
+DEPENDENCIES:
+  - GRSegementedView (from `../`)
+
+EXTERNAL SOURCES:
+  GRSegementedView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GRSegementedView: 6768c74bd3674e75b0cb8591dde5db5f373abe8a
+
+PODFILE CHECKSUM: 62520bb2d9a5c9f8d2a27d5d37a72c6edcbfba1a
+
+COCOAPODS: 1.7.5
