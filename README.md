@@ -2,6 +2,8 @@
 
 Nice animated custom segment control which can be used insted of UISegmentedControl
 
+![demo](https://github.com/gregorywlsn/GRSegementedView/blob/master/Example/Resources/segment.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run the code.
