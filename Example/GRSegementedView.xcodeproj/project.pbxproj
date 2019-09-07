@@ -14,7 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		60ED93314F680E521B9864AC /* Pods_GRSegementedView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF0479B3B1A24BCE2D2E2B /* Pods_GRSegementedView_Example.framework */; };
-		8B4F274F2323DF73008CD1C5 /* segment.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F274E2323DF73008CD1C5 /* segment.gif */; };
+		8B4F27512323E2CE008CD1C5 /* segment.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F27502323E2CE008CD1C5 /* segment.gif */; };
 		B062B7575FEE94F67B71C16A /* Pods_GRSegementedView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E665F989D2A4FE4C4B35F97 /* Pods_GRSegementedView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		670B01DAF43FFB94F706A9B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		68071F9880D24D7E596718CB /* Pods-GRSegementedView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRSegementedView_Example.debug.xcconfig"; path = "Target Support Files/Pods-GRSegementedView_Example/Pods-GRSegementedView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8B4F274E2323DF73008CD1C5 /* segment.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = segment.gif; sourceTree = "<group>"; };
+		8B4F27502323E2CE008CD1C5 /* segment.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = segment.gif; sourceTree = "<group>"; };
 		AFDCD716CC0B791FBF25D384 /* Pods-GRSegementedView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRSegementedView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GRSegementedView_Tests/Pods-GRSegementedView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E14BE4741174F8A8695E6196 /* Pods-GRSegementedView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRSegementedView_Tests.release.xcconfig"; path = "Target Support Files/Pods-GRSegementedView_Tests/Pods-GRSegementedView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,7 +145,7 @@
 		8B4F274D2323DE50008CD1C5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8B4F274E2323DF73008CD1C5 /* segment.gif */,
+				8B4F27502323E2CE008CD1C5 /* segment.gif */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -258,8 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				8B4F27512323E2CE008CD1C5 /* segment.gif in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				8B4F274F2323DF73008CD1C5 /* segment.gif in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
