@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GRSegementedView_Example' do
+  pod 'GRSegementedView', :path => '../'
+
+  target 'GRSegementedView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

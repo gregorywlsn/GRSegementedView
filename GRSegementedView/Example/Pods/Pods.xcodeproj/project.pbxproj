@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D40D5669C23F3E21C779440F2BDF69 /* Pods-GRSegementedView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B65CB95E9AA5D62253BCCB0E3E892EE9 /* Pods-GRSegementedView_Tests-dummy.m */; };
+		1DD5892AAFFB1D957F2F5DBE70200EE8 /* Pods-GRSegementedView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34393DB644E57128F8CADF12700CA8B5 /* Pods-GRSegementedView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA590E88BC8D1508AC30D48DB54B28E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		426575FAFF4C7F74B85957DADA223244 /* Pods-GRSegementedView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB03051A529CD7B0B5F0B2FCDEA0BD6E /* Pods-GRSegementedView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B00B8E82BED2F0119157BC3B7B4D5B2 /* Pods-GRSegementedView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AE250C8A996F73B1137ED78B0E5334 /* Pods-GRSegementedView_Example-dummy.m */; };
+		69E94A8EDC2AD7490A1BE10EFD00D319 /* GRSegementedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 210F7C183F05DA8987C02C7E2671ACAE /* GRSegementedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C87CD5B6181A4583A2D9FF54122C58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7AF29C0039C8AE57B6C458CA044AECD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8B4F274C2323D64A008CD1C5 /* GRSegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F274B2323D64A008CD1C5 /* GRSegmentedView.swift */; };
+		CF19310C69FFC83FC3118B376AC3598C /* GRSegementedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A98A92E6D617E56D1ABFC1DB78E1764 /* GRSegementedView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D12542BB42C0C8D9B2E06BAB35A8C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62EF409189503BBE909C7C209368607C;
+			remoteInfo = GRSegementedView;
+		};
+		BCC7DE871925366B6D69FB6CE467B8F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2ABD33177E1DD7E7D295814A334531;
+			remoteInfo = "Pods-GRSegementedView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BF98D71F9B4B8A6009226EA741D4082 /* Pods-GRSegementedView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRSegementedView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C38C261BE27492339B666BCB0873649 /* Pods_GRSegementedView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRSegementedView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210F7C183F05DA8987C02C7E2671ACAE /* GRSegementedView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRSegementedView-umbrella.h"; sourceTree = "<group>"; };
+		23181752D9C757B9A6B80A00418C7A07 /* Pods-GRSegementedView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GRSegementedView_Tests.modulemap"; sourceTree = "<group>"; };
+		2C96D897AFA957A02BD8B095FD937556 /* Pods-GRSegementedView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRSegementedView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EBB08E8C858AD914AF13DA6A0103544 /* GRSegementedView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRSegementedView-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34393DB644E57128F8CADF12700CA8B5 /* Pods-GRSegementedView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRSegementedView_Example-umbrella.h"; sourceTree = "<group>"; };
+		3EBF27F71E133CEE336BDFED7A8696EA /* Pods-GRSegementedView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRSegementedView_Example-Info.plist"; sourceTree = "<group>"; };
+		45700B87BAA60EDE0278667F473758A2 /* Pods-GRSegementedView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRSegementedView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		47A7CA19B7BB6341CA6257701504BF38 /* GRSegementedView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRSegementedView.xcconfig; sourceTree = "<group>"; };
+		5A49FD159602348136F68A29C1C6693F /* GRSegementedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GRSegementedView.modulemap; sourceTree = "<group>"; };
+		6BC5A22FA85B5DB972102D7DA9352393 /* Pods-GRSegementedView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRSegementedView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		89AD02AD6AD8E3E897B661972F9744E5 /* Pods-GRSegementedView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRSegementedView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8B4F274B2323D64A008CD1C5 /* GRSegmentedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRSegmentedView.swift; sourceTree = "<group>"; };
+		959F794E636D92E445A2501199B2863E /* Pods-GRSegementedView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRSegementedView_Tests-Info.plist"; sourceTree = "<group>"; };
+		9A98A92E6D617E56D1ABFC1DB78E1764 /* GRSegementedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRSegementedView-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2BE2FEAF5D713827E863032B8E66C20 /* Pods-GRSegementedView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRSegementedView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A7AE250C8A996F73B1137ED78B0E5334 /* Pods-GRSegementedView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRSegementedView_Example-dummy.m"; sourceTree = "<group>"; };
+		B63A9135A1522E11EE0F3AC00699D851 /* Pods-GRSegementedView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRSegementedView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B65CB95E9AA5D62253BCCB0E3E892EE9 /* Pods-GRSegementedView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRSegementedView_Tests-dummy.m"; sourceTree = "<group>"; };
+		B872FDDC0FD86547252DBB307230DCC2 /* GRSegementedView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GRSegementedView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAAE8463785C831930E9002192844164 /* Pods-GRSegementedView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRSegementedView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB2A64DB84192E85366E05F28C77EAB2 /* Pods-GRSegementedView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRSegementedView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC49DE3C81A775FF5525DF75F877CC74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CF40CA7102716C6F9B020881E9C19E1C /* Pods_GRSegementedView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRSegementedView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D609F9853AAEE894A9B68A56D85CF795 /* Pods-GRSegementedView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GRSegementedView_Example.modulemap"; sourceTree = "<group>"; };
+		DB03051A529CD7B0B5F0B2FCDEA0BD6E /* Pods-GRSegementedView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRSegementedView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F2A203616EA1B0392B1AD77C4C5603D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F66D976FE9EA3971520B6A1D336B8287 /* GRSegementedView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GRSegementedView-Info.plist"; sourceTree = "<group>"; };
+		F7717181C30B815C980D16FB1648F05C /* GRSegementedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRSegementedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD21AC48F9EE941A71E49727545AFE6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF29C0039C8AE57B6C458CA044AECD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6FE4059668E2BCB8A7A0CE46BE5C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C87CD5B6181A4583A2D9FF54122C58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04312FC417BF78B8C4234BC9F586C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA590E88BC8D1508AC30D48DB54B28E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3828F760CE04D99105D173BE6429B93F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E992A759BD5A5009B1013C95175163AF /* Pods-GRSegementedView_Example */,
+				70BEF82DC7260F21694E45C327653B92 /* Pods-GRSegementedView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		57A32C42878C42CA3A1C163FCDE8ED87 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B872FDDC0FD86547252DBB307230DCC2 /* GRSegementedView.podspec */,
+				F2A203616EA1B0392B1AD77C4C5603D8 /* LICENSE */,
+				CC49DE3C81A775FF5525DF75F877CC74 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		70BEF82DC7260F21694E45C327653B92 /* Pods-GRSegementedView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				23181752D9C757B9A6B80A00418C7A07 /* Pods-GRSegementedView_Tests.modulemap */,
+				0BF98D71F9B4B8A6009226EA741D4082 /* Pods-GRSegementedView_Tests-acknowledgements.markdown */,
+				2C96D897AFA957A02BD8B095FD937556 /* Pods-GRSegementedView_Tests-acknowledgements.plist */,
+				B65CB95E9AA5D62253BCCB0E3E892EE9 /* Pods-GRSegementedView_Tests-dummy.m */,
+				959F794E636D92E445A2501199B2863E /* Pods-GRSegementedView_Tests-Info.plist */,
+				DB03051A529CD7B0B5F0B2FCDEA0BD6E /* Pods-GRSegementedView_Tests-umbrella.h */,
+				BAAE8463785C831930E9002192844164 /* Pods-GRSegementedView_Tests.debug.xcconfig */,
+				45700B87BAA60EDE0278667F473758A2 /* Pods-GRSegementedView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GRSegementedView_Tests";
+			path = "Target Support Files/Pods-GRSegementedView_Tests";
+			sourceTree = "<group>";
+		};
+		81ADEF6AFB5C5BB8F4D4E0F421CDE70F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7717181C30B815C980D16FB1648F05C /* GRSegementedView.framework */,
+				CF40CA7102716C6F9B020881E9C19E1C /* Pods_GRSegementedView_Example.framework */,
+				1C38C261BE27492339B666BCB0873649 /* Pods_GRSegementedView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D8AB3C4D62DF86F5AE9CF5EA5E2889B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A49FD159602348136F68A29C1C6693F /* GRSegementedView.modulemap */,
+				47A7CA19B7BB6341CA6257701504BF38 /* GRSegementedView.xcconfig */,
+				9A98A92E6D617E56D1ABFC1DB78E1764 /* GRSegementedView-dummy.m */,
+				F66D976FE9EA3971520B6A1D336B8287 /* GRSegementedView-Info.plist */,
+				2EBB08E8C858AD914AF13DA6A0103544 /* GRSegementedView-prefix.pch */,
+				210F7C183F05DA8987C02C7E2671ACAE /* GRSegementedView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GRSegementedView";
+			sourceTree = "<group>";
+		};
+		A68C3F95B22CAEBDB7870D727BB2CE4F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D489C9AE2D871A25DCA2FBD12F6A7298 /* GRSegementedView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A68C3F95B22CAEBDB7870D727BB2CE4F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				81ADEF6AFB5C5BB8F4D4E0F421CDE70F /* Products */,
+				3828F760CE04D99105D173BE6429B93F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D489C9AE2D871A25DCA2FBD12F6A7298 /* GRSegementedView */ = {
+			isa = PBXGroup;
+			children = (
+				8B4F274B2323D64A008CD1C5 /* GRSegmentedView.swift */,
+				57A32C42878C42CA3A1C163FCDE8ED87 /* Pod */,
+				8D8AB3C4D62DF86F5AE9CF5EA5E2889B /* Support Files */,
+			);
+			name = GRSegementedView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E992A759BD5A5009B1013C95175163AF /* Pods-GRSegementedView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D609F9853AAEE894A9B68A56D85CF795 /* Pods-GRSegementedView_Example.modulemap */,
+				B63A9135A1522E11EE0F3AC00699D851 /* Pods-GRSegementedView_Example-acknowledgements.markdown */,
+				CB2A64DB84192E85366E05F28C77EAB2 /* Pods-GRSegementedView_Example-acknowledgements.plist */,
+				A7AE250C8A996F73B1137ED78B0E5334 /* Pods-GRSegementedView_Example-dummy.m */,
+				89AD02AD6AD8E3E897B661972F9744E5 /* Pods-GRSegementedView_Example-frameworks.sh */,
+				3EBF27F71E133CEE336BDFED7A8696EA /* Pods-GRSegementedView_Example-Info.plist */,
+				34393DB644E57128F8CADF12700CA8B5 /* Pods-GRSegementedView_Example-umbrella.h */,
+				6BC5A22FA85B5DB972102D7DA9352393 /* Pods-GRSegementedView_Example.debug.xcconfig */,
+				A2BE2FEAF5D713827E863032B8E66C20 /* Pods-GRSegementedView_Example.release.xcconfig */,
+			);
+			name = "Pods-GRSegementedView_Example";
+			path = "Target Support Files/Pods-GRSegementedView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6220BC9296F2366FCB3D03D73F322EBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E94A8EDC2AD7490A1BE10EFD00D319 /* GRSegementedView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3B6001C7A2F3C6DD351CE4E72B179A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426575FAFF4C7F74B85957DADA223244 /* Pods-GRSegementedView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22BE63F8CE7C9417C567BDD01D3DB95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD5892AAFFB1D957F2F5DBE70200EE8 /* Pods-GRSegementedView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3334DD0DBB5FE5F895B35242D5B5E42C /* Pods-GRSegementedView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FFD6F2CD0149BBCE50C0643DACBC1B /* Build configuration list for PBXNativeTarget "Pods-GRSegementedView_Tests" */;
+			buildPhases = (
+				6A3B6001C7A2F3C6DD351CE4E72B179A /* Headers */,
+				3D8E16BCB61FD739D26777A49879392F /* Sources */,
+				F04312FC417BF78B8C4234BC9F586C41 /* Frameworks */,
+				B0DCA9C4169984777D540C60EE2E35D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5A435F955433D7D2220EDD9A7F2E39B /* PBXTargetDependency */,
+			);
+			name = "Pods-GRSegementedView_Tests";
+			productName = "Pods-GRSegementedView_Tests";
+			productReference = 1C38C261BE27492339B666BCB0873649 /* Pods_GRSegementedView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62EF409189503BBE909C7C209368607C /* GRSegementedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B97C0BE995FC3C154C08C13AC147E89 /* Build configuration list for PBXNativeTarget "GRSegementedView" */;
+			buildPhases = (
+				6220BC9296F2366FCB3D03D73F322EBA /* Headers */,
+				379580F3FC2791261B64097F3E2C6D1B /* Sources */,
+				EF6FE4059668E2BCB8A7A0CE46BE5C82 /* Frameworks */,
+				D51CBD52F3655940603474127D063CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRSegementedView;
+			productName = GRSegementedView;
+			productReference = F7717181C30B815C980D16FB1648F05C /* GRSegementedView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC2ABD33177E1DD7E7D295814A334531 /* Pods-GRSegementedView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D5957AAD0FE47F27595714316F0CC6 /* Build configuration list for PBXNativeTarget "Pods-GRSegementedView_Example" */;
+			buildPhases = (
+				C22BE63F8CE7C9417C567BDD01D3DB95 /* Headers */,
+				256F78056671D867E586D256CD775F7B /* Sources */,
+				BD21AC48F9EE941A71E49727545AFE6B /* Frameworks */,
+				250911BFE0D50822DB2B907D430D0C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD3933283A57122490133C4D7C0F29F /* PBXTargetDependency */,
+			);
+			name = "Pods-GRSegementedView_Example";
+			productName = "Pods-GRSegementedView_Example";
+			productReference = CF40CA7102716C6F9B020881E9C19E1C /* Pods_GRSegementedView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					62EF409189503BBE909C7C209368607C = {
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 81ADEF6AFB5C5BB8F4D4E0F421CDE70F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62EF409189503BBE909C7C209368607C /* GRSegementedView */,
+				EC2ABD33177E1DD7E7D295814A334531 /* Pods-GRSegementedView_Example */,
+				3334DD0DBB5FE5F895B35242D5B5E42C /* Pods-GRSegementedView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		250911BFE0D50822DB2B907D430D0C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0DCA9C4169984777D540C60EE2E35D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51CBD52F3655940603474127D063CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		256F78056671D867E586D256CD775F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B00B8E82BED2F0119157BC3B7B4D5B2 /* Pods-GRSegementedView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379580F3FC2791261B64097F3E2C6D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4F274C2323D64A008CD1C5 /* GRSegmentedView.swift in Sources */,
+				CF19310C69FFC83FC3118B376AC3598C /* GRSegementedView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8E16BCB61FD739D26777A49879392F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D40D5669C23F3E21C779440F2BDF69 /* Pods-GRSegementedView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD3933283A57122490133C4D7C0F29F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRSegementedView;
+			target = 62EF409189503BBE909C7C209368607C /* GRSegementedView */;
+			targetProxy = 9D12542BB42C0C8D9B2E06BAB35A8C2E /* PBXContainerItemProxy */;
+		};
+		E5A435F955433D7D2220EDD9A7F2E39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GRSegementedView_Example";
+			target = EC2ABD33177E1DD7E7D295814A334531 /* Pods-GRSegementedView_Example */;
+			targetProxy = BCC7DE871925366B6D69FB6CE467B8F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		076C77B3DBB56AE6AE20FD7858E8504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC5A22FA85B5DB972102D7DA9352393 /* Pods-GRSegementedView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GRSegementedView_Example/Pods-GRSegementedView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRSegementedView_Example/Pods-GRSegementedView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12063F3C1BDF65DC9831EFE3BC71A140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BE2FEAF5D713827E863032B8E66C20 /* Pods-GRSegementedView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GRSegementedView_Example/Pods-GRSegementedView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRSegementedView_Example/Pods-GRSegementedView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75F18350F1BE51B573F2D3003046D638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45700B87BAA60EDE0278667F473758A2 /* Pods-GRSegementedView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GRSegementedView_Tests/Pods-GRSegementedView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRSegementedView_Tests/Pods-GRSegementedView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8326228AE783DBF7F5F93FE9CF1AA6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAAE8463785C831930E9002192844164 /* Pods-GRSegementedView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GRSegementedView_Tests/Pods-GRSegementedView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRSegementedView_Tests/Pods-GRSegementedView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3C52AD244C727F34387FA45AE888DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A7CA19B7BB6341CA6257701504BF38 /* GRSegementedView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GRSegementedView/GRSegementedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRSegementedView/GRSegementedView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GRSegementedView/GRSegementedView.modulemap";
+				PRODUCT_MODULE_NAME = GRSegementedView;
+				PRODUCT_NAME = GRSegementedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF8A43C897C92FDBAABCAC998B4FE7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A7CA19B7BB6341CA6257701504BF38 /* GRSegementedView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GRSegementedView/GRSegementedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRSegementedView/GRSegementedView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GRSegementedView/GRSegementedView.modulemap";
+				PRODUCT_MODULE_NAME = GRSegementedView;
+				PRODUCT_NAME = GRSegementedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B97C0BE995FC3C154C08C13AC147E89 /* Build configuration list for PBXNativeTarget "GRSegementedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8A43C897C92FDBAABCAC998B4FE7DB /* Debug */,
+				A3C52AD244C727F34387FA45AE888DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D5957AAD0FE47F27595714316F0CC6 /* Build configuration list for PBXNativeTarget "Pods-GRSegementedView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076C77B3DBB56AE6AE20FD7858E8504F /* Debug */,
+				12063F3C1BDF65DC9831EFE3BC71A140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7FFD6F2CD0149BBCE50C0643DACBC1B /* Build configuration list for PBXNativeTarget "Pods-GRSegementedView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8326228AE783DBF7F5F93FE9CF1AA6B2 /* Debug */,
+				75F18350F1BE51B573F2D3003046D638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
