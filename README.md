@@ -12,7 +12,7 @@ To run the example project, clone the repo, and run the code.
 ### CocoaPods
 
 Add the following to your Podfile:
-```swift
+``` ruby
 use_frameworks!
 pod 'GRSegmentedView'
  ```
