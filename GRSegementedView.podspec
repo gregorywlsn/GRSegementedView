@@ -22,13 +22,13 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/gregorywlsn/GRSegementedView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://raw.githubusercontent.com/gregorywlsn/GRSegmentedView/master/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gregorywlsn' => 'gregorywlsn0111@gmail.com' }
   s.source           = { :git => 'https://github.com/gregorywlsn/GRSegementedView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://www.linkedin.com/in/gregory-wilson-549241118/'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'GRSegementedView/Classes/**/*'
   
