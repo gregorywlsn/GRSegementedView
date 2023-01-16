@@ -9,6 +9,12 @@ Nice animated custom segment control which can be used insted of UISegmentedCont
 To run the example project, clone the repo, and run the code.
 
 ## Installation
+### CocoaPods
+
+Add the following to your Podfile:
+use_frameworks!
+pod 'GRSegmentedView'
+
 ### Manually:
 
 * Download GRSegementedView or Clone Download.
