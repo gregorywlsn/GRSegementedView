@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint GRSegementedView.podspec' to ensure this is a
+# Be sure to run `pod lib lint GRSegmentedView.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'GRSegementedView'
+  s.name             = 'GRSegmentedView'
   s.version          = '0.1.0'
   s.summary          = 'A nice animated Segmented Control.'
 
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 'Nice animated custom segment control which can be used insted of UISegmentedControl'
                        DESC
 
-  s.homepage         = 'https://github.com/gregorywlsn/GRSegementedView'
+  s.homepage         = 'https://github.com/gregorywlsn/GRSegmentedView'
   s.screenshots     = 'https://raw.githubusercontent.com/gregorywlsn/GRSegmentedView/master/Example/Resources/segment.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gregorywlsn' => 'gregorywlsn0111@gmail.com' }
-  s.source           = { :git => 'https://github.com/gregorywlsn/GRSegementedView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gregorywlsn/GRSegmentedView.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/Gregory27579494'
 
   s.ios.deployment_target = '12.0'
   s.swift_version = '4.0'
 
-  s.source_files = 'GRSegementedView/Classes/**/*'
+  s.source_files = 'GRSegmentedView/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'GRSegementedView' => ['GRSegementedView/Assets/*.png']
+  #   'GRSegmentedView' => ['GRSegmentedView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
