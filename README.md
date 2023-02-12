@@ -1,8 +1,8 @@
-# GRSegementedView
+# GRSegmentedView
 
 Nice animated custom segment control which can be used insted of UISegmentedControl
 
-![demo](https://github.com/gregorywlsn/GRSegementedView/blob/master/Example/Resources/segment.gif)
+![demo](https://github.com/gregorywlsn/GRSegmentedView/blob/master/Example/Resources/segment.gif)
 
 ## Example
 
@@ -19,8 +19,8 @@ pod 'GRSegmentedView'
 
 ### Manually:
 
-* Download GRSegementedView or Clone Download.
-* Drag and drop GRSegementedView directory to your project
+* Download GRSegmentedView or Clone Download.
+* Drag and drop GRSegmentedView directory to your project
 
 ## Usage
 
